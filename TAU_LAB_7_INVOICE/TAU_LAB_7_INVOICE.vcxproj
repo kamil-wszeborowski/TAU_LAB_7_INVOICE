@@ -151,7 +151,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="TAU_LAB_7_INVOICE.cpp" />
+    <ClCompile Include="BddTests.cpp" />
+    <ClCompile Include="Db.cpp" />
+    <ClCompile Include="Invoice.cpp" />
+    <ClCompile Include="TddTests.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="catch.hpp" />
+    <ClInclude Include="Db.hpp" />
+    <ClInclude Include="Invoice.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
